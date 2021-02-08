@@ -1,0 +1,118 @@
+/* Navbar */
+.navbar{
+    background-color: #222222;
+}
+.nav-link, .navbar-brand{
+    color: white!important;
+}
+
+/* Body Style */
+body{
+    background-color: #1a1a1a;
+}
+
+/* Card Style */
+.card{
+    background-color: #222222;
+    color: white;
+}
+h4{
+    text-align: center;
+}
+
+hr{
+    border-color: grey;
+}
+.carde img{
+    width: 200px;
+}
+
+.cardi{
+    margin-left: 1px;
+}
+
+.cardi img{
+    width: 200px;
+}
+
+/* Section Movie */
+.movie{
+    margin-top: 10px;
+}
+.movie img{
+    width: 220px;
+    height: 200px;
+}
+.p1{
+    margin-top: -10px;
+    font-size: 15px;
+}
+.p2, .p3, .p4, .p5{
+    margin-top: -15px;
+}
+
+
+.garis{
+    margin-top: -10px;
+}
+
+
+/* Desktop Version */
+@media(min-width:992px){
+    .cardi{
+        margin-left: 50px;
+    }
+    h4{
+        text-align: left;
+    }
+    
+    .carde img{
+        width: 250px;
+    }
+    .cardi img{
+        width: 250px;
+    }
+    .movie{
+        margin-top: 2px;
+    }
+    .card-title{
+        margin-top: -30px;
+    }
+
+    /* Movie Section */
+    .movie img{
+        width: 63px;
+        height: 87px;
+    }
+
+    /* Ongoing Section */
+    .ongoing{
+        margin-top: -330px;
+    }
+
+    .genres{
+        margin-top: -110px;
+    }
+    ul li{
+        list-style: none;   
+    }
+    .genres hr{
+        width: 270px;
+        margin-left: -30px;
+    }
+    .latest{
+        margin-top: -870px;
+    }
+    .bloged{
+        margin-top: 20px;
+    }
+    .footer{
+        background-color: #222222;
+        height: 200px;
+        margin-top: 30px;
+    }
+    .page{
+        padding-top: 50px;
+    }
+
+}
